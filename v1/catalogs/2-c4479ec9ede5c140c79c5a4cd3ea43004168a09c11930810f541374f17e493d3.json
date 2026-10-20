@@ -1,0 +1,463 @@
+{
+  "schemaVersion": 1,
+  "sequence": 2,
+  "publishedAt": "2026-10-20T17:29:20Z",
+  "requiredCapabilities": [
+    "entry-policy-v1",
+    "dated-regions-v1",
+    "korea-us-transit-v1"
+  ],
+  "sources": [
+    {
+      "id": "ica-cn-sg-20261020",
+      "title": "ICA mutual visa exemption",
+      "url": "https://www.ica.gov.sg/news-and-publications/newsroom/media-release/mutual-30-day-visa-exemption-arrangement-between-singapore-and-the-people-s-republic-of-china",
+      "publishedOn": "2024-01-25",
+      "reviewedOn": "2026-10-20",
+      "reviewDueOn": "2026-10-30"
+    },
+    {
+      "id": "china-mutual-faq-20261020",
+      "title": "China mutual visa exemption questions",
+      "url": "https://english.www.gov.cn/news/202406/18/content_WS6670ee4ac6d0868f4e8e8426.html",
+      "publishedOn": "2024-06-18",
+      "reviewedOn": "2026-10-20",
+      "reviewDueOn": "2026-10-30"
+    },
+    {
+      "id": "japan-mofa-20261020",
+      "title": "Japan short-stay visa exemptions",
+      "url": "https://www.mofa.go.jp/j_info/visit/visa/short/novisa.html",
+      "publishedOn": "2025-09-01",
+      "reviewedOn": "2026-10-20",
+      "reviewDueOn": "2026-10-30"
+    },
+    {
+      "id": "eu-singapore-20261020",
+      "title": "EU delegation visa guidance for Singapore",
+      "url": "https://www.eeas.europa.eu/singapore/travel-study_en",
+      "publishedOn": "2022-06-16",
+      "reviewedOn": "2026-10-20",
+      "reviewDueOn": "2026-10-30"
+    },
+    {
+      "id": "eu-schengen-area-20261020",
+      "title": "Schengen area membership",
+      "url": "https://home-affairs.ec.europa.eu/policies/schengen/schengen-area_en",
+      "publishedOn": "2025-05-27",
+      "reviewedOn": "2026-10-20",
+      "reviewDueOn": "2026-10-30"
+    },
+    {
+      "id": "eu-schengen-counting-20261020",
+      "title": "Schengen calculator manual",
+      "url": "https://ec.europa.eu/assets/home/visa-calculator/docs/short_stay_schengen_calculator_user_manual_en.pdf",
+      "publishedOn": null,
+      "reviewedOn": "2026-10-20",
+      "reviewDueOn": "2026-10-30"
+    },
+    {
+      "id": "korea-ny-20261020",
+      "title": "Korea transit guidance and US route examples",
+      "url": "https://www.mofa.go.kr/us-newyork-en/brd/m_25545/view.do?seq=12",
+      "publishedOn": "2024-02-16",
+      "reviewedOn": "2026-10-20",
+      "reviewDueOn": "2026-10-30"
+    },
+    {
+      "id": "korea-melbourne-20261020",
+      "title": "Korea transit document and entry conditions",
+      "url": "https://www.mofa.go.kr/au-melbourne-en/brd/m_1955/view.do?seq=738943",
+      "publishedOn": "2026-06-05",
+      "reviewedOn": "2026-10-20",
+      "reviewDueOn": "2026-10-30"
+    },
+    {
+      "id": "indonesia-jakarta-20261020",
+      "title": "Indonesia visa-on-arrival questions",
+      "url": "https://jakartapusat.imigrasi.go.id/faqs",
+      "publishedOn": null,
+      "reviewedOn": "2026-10-20",
+      "reviewDueOn": "2026-10-30"
+    },
+    {
+      "id": "uk-eta-nationals-20261020",
+      "title": "UK ETA nationality and commencement rules",
+      "url": "https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-eta-national-list",
+      "publishedOn": null,
+      "reviewedOn": "2026-10-20",
+      "reviewDueOn": "2026-10-30"
+    },
+    {
+      "id": "uk-eta-20261020",
+      "title": "UK electronic travel authorisation",
+      "url": "https://www.gov.uk/eta",
+      "publishedOn": null,
+      "reviewedOn": "2026-10-20",
+      "reviewDueOn": "2026-10-30"
+    }
+  ],
+  "regions": [
+    {
+      "reference": {
+        "id": "schengen-membership",
+        "revision": "2025-01-01"
+      },
+      "effectiveFrom": "2025-01-01",
+      "effectiveUntil": null,
+      "countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CH",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ],
+      "sourceIDs": [
+        "eu-schengen-area-20261020",
+        "eu-schengen-counting-20261020"
+      ]
+    }
+  ],
+  "policies": [
+    {
+      "reference": {
+        "id": "cn-sg-visitor",
+        "revision": "2026-10-20"
+      },
+      "title": "Singapore short visit",
+      "destinations": [
+        "SG"
+      ],
+      "region": null,
+      "passportCountries": [
+        "CN"
+      ],
+      "passportTypes": [
+        "ordinary"
+      ],
+      "purposes": [
+        "tourism"
+      ],
+      "accessMode": "visaExempt",
+      "template": "referenceOnly",
+      "effectiveFrom": "2024-02-09",
+      "effectiveUntil": null,
+      "reviewedOn": "2026-10-20",
+      "reviewDueOn": "2026-10-30",
+      "sourceIDs": [
+        "ica-cn-sg-20261020"
+      ],
+      "statedStayDays": 30,
+      "limits": [],
+      "requirements": [
+        "entryRequirements"
+      ],
+      "notes": [
+        "Ordinary Chinese passports have a published exemption of up to 30 days.",
+        "Confirm general entry requirements and the visit pass issued on arrival. This source does not establish an exact day-counting convention."
+      ]
+    },
+    {
+      "reference": {
+        "id": "sg-cn-visitor",
+        "revision": "2026-10-20"
+      },
+      "title": "China short visit",
+      "destinations": [
+        "CN"
+      ],
+      "region": null,
+      "passportCountries": [
+        "SG"
+      ],
+      "passportTypes": [
+        "ordinary"
+      ],
+      "purposes": [
+        "tourism"
+      ],
+      "accessMode": "visaExempt",
+      "template": "referenceOnly",
+      "effectiveFrom": "2024-02-09",
+      "effectiveUntil": null,
+      "reviewedOn": "2026-10-20",
+      "reviewDueOn": "2026-10-30",
+      "sourceIDs": [
+        "ica-cn-sg-20261020",
+        "china-mutual-faq-20261020"
+      ],
+      "statedStayDays": 30,
+      "limits": [],
+      "requirements": [
+        "entryRequirements"
+      ],
+      "notes": [
+        "Ordinary Singapore passports have a published exemption of up to 30 days.",
+        "Mutual-exemption guidance also describes a 90-day cap in 180 days and excludes stays under certain other permissions. Exact applicability and counting remain reference-only."
+      ]
+    },
+    {
+      "reference": {
+        "id": "sg-jp-visitor",
+        "revision": "2026-10-20"
+      },
+      "title": "Japan short visit",
+      "destinations": [
+        "JP"
+      ],
+      "region": null,
+      "passportCountries": [
+        "SG"
+      ],
+      "passportTypes": [
+        "ordinary"
+      ],
+      "purposes": [
+        "tourism"
+      ],
+      "accessMode": "visaExempt",
+      "template": "referenceOnly",
+      "effectiveFrom": null,
+      "effectiveUntil": null,
+      "reviewedOn": "2026-10-20",
+      "reviewDueOn": "2026-10-30",
+      "sourceIDs": [
+        "japan-mofa-20261020"
+      ],
+      "statedStayDays": 90,
+      "limits": [],
+      "requirements": [
+        "entryRequirements"
+      ],
+      "notes": [
+        "Singapore is listed for short-stay visa exemption with 90 days upon landing permission.",
+        "Entry conditions and day counting require confirmation. No cumulative Japan rule is inferred."
+      ]
+    },
+    {
+      "reference": {
+        "id": "sg-schengen-visitor",
+        "revision": "2026-10-20"
+      },
+      "title": "Schengen short visit",
+      "destinations": [],
+      "region": {
+        "id": "schengen-membership",
+        "revision": "2025-01-01"
+      },
+      "passportCountries": [
+        "SG"
+      ],
+      "passportTypes": [
+        "ordinary"
+      ],
+      "purposes": [
+        "tourism"
+      ],
+      "accessMode": "visaExempt",
+      "template": "ordinaryVisitor",
+      "effectiveFrom": null,
+      "effectiveUntil": null,
+      "reviewedOn": "2026-10-20",
+      "reviewDueOn": "2026-10-30",
+      "sourceIDs": [
+        "eu-singapore-20261020",
+        "eu-schengen-area-20261020",
+        "eu-schengen-counting-20261020"
+      ],
+      "statedStayDays": 90,
+      "limits": [
+        {
+          "kind": "rollingWindow",
+          "quantity": {
+            "amount": 90,
+            "unit": "days"
+          },
+          "windowDays": 180,
+          "counting": "includeEntryAndExit"
+        }
+      ],
+      "requirements": [
+        "entryRequirements"
+      ],
+      "notes": [
+        "General short-stay limit only; entry and exit days count.",
+        "Exclude stays authorised by a residence permit or long-stay visa where applicable. Personal grants, bilateral exceptions and travel authorisations require separate review.",
+        "Membership is supplied only from 1 January 2025. Earlier membership is unknown in this catalog."
+      ]
+    },
+    {
+      "reference": {
+        "id": "cn-kr-us-transit",
+        "revision": "2026-10-20"
+      },
+      "title": "Korea transit through the US route",
+      "destinations": [
+        "KR"
+      ],
+      "region": null,
+      "passportCountries": [
+        "CN"
+      ],
+      "passportTypes": [
+        "ordinary"
+      ],
+      "purposes": [
+        "transit"
+      ],
+      "accessMode": "conditional",
+      "template": "koreaUSTransit",
+      "effectiveFrom": "2023-04-30",
+      "effectiveUntil": null,
+      "reviewedOn": "2026-10-20",
+      "reviewDueOn": "2026-10-30",
+      "sourceIDs": [
+        "korea-ny-20261020",
+        "korea-melbourne-20261020"
+      ],
+      "statedStayDays": 30,
+      "limits": [],
+      "requirements": [
+        "noImmigrationViolations",
+        "noKoreaRefusalWithinThreeYears",
+        "noSeriousImmigrationPenalty"
+      ],
+      "notes": [
+        "Reviewed subset: Chinese ordinary passport and a valid US visa attached as a sticker, with a direct US-to-third-country route through Korea or the reverse.",
+        "Confirmed departure within 30 days and the listed immigration-history conditions are required. Intermediate routes require individual review; a known stay exceeding three days does not match.",
+        "The boundary counting convention is unverified. No calculated admission deadline is supplied. Residence cards, electronic documents and other issuers are outside this subset."
+      ]
+    },
+    {
+      "reference": {
+        "id": "cn-id-voa",
+        "revision": "2026-10-20"
+      },
+      "title": "Indonesia visa on arrival",
+      "destinations": [
+        "ID"
+      ],
+      "region": null,
+      "passportCountries": [
+        "CN"
+      ],
+      "passportTypes": [
+        "ordinary"
+      ],
+      "purposes": [
+        "tourism"
+      ],
+      "accessMode": "visaOnArrival",
+      "template": "referenceOnly",
+      "effectiveFrom": null,
+      "effectiveUntil": null,
+      "reviewedOn": "2026-10-20",
+      "reviewDueOn": "2026-10-30",
+      "sourceIDs": [
+        "indonesia-jakarta-20261020"
+      ],
+      "statedStayDays": null,
+      "limits": [],
+      "requirements": [
+        "entryRequirements"
+      ],
+      "notes": [
+        "The official list includes China for electronic visa on arrival. Arrival applications use designated immigration checkpoints.",
+        "A valid national passport with at least six months remaining and a return or onward ticket are listed requirements. Confirm the applicable visa type, checkpoint and authorised stay. No unverified duration is calculated."
+      ]
+    },
+    {
+      "reference": {
+        "id": "sg-gb-eta",
+        "revision": "2026-10-20"
+      },
+      "title": "UK electronic travel authorisation",
+      "destinations": [
+        "GB"
+      ],
+      "region": null,
+      "passportCountries": [
+        "SG"
+      ],
+      "passportTypes": [
+        "ordinary"
+      ],
+      "purposes": [
+        "tourism"
+      ],
+      "accessMode": "advanceAuthorization",
+      "template": "referenceOnly",
+      "effectiveFrom": "2025-01-08",
+      "effectiveUntil": null,
+      "reviewedOn": "2026-10-20",
+      "reviewDueOn": "2026-10-30",
+      "sourceIDs": [
+        "uk-eta-nationals-20261020",
+        "uk-eta-20261020"
+      ],
+      "statedStayDays": null,
+      "limits": [],
+      "requirements": [
+        "entryRequirements"
+      ],
+      "notes": [
+        "The ETA nationality rules include Singapore for travel from 8 January 2025. An ETA is advance travel permission, not a grant of admission.",
+        "Exemptions can apply to British or Irish passport holders and people with existing UK permission. Confirm the route, purpose and applicable status. No fixed-day stay deadline is inferred from the visitor-month guidance."
+      ]
+    }
+  ],
+  "activePolicies": [
+    {
+      "id": "cn-sg-visitor",
+      "revision": "2026-10-20"
+    },
+    {
+      "id": "sg-cn-visitor",
+      "revision": "2026-10-20"
+    },
+    {
+      "id": "sg-jp-visitor",
+      "revision": "2026-10-20"
+    },
+    {
+      "id": "sg-schengen-visitor",
+      "revision": "2026-10-20"
+    },
+    {
+      "id": "cn-kr-us-transit",
+      "revision": "2026-10-20"
+    },
+    {
+      "id": "cn-id-voa",
+      "revision": "2026-10-20"
+    },
+    {
+      "id": "sg-gb-eta",
+      "revision": "2026-10-20"
+    }
+  ]
+}
