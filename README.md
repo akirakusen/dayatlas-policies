@@ -9,3 +9,5 @@ No personal passports, permits, trips, locations, accounts, private signing mate
 `v1/head.json` selects an immutable signed-catalog payload in `v1/catalogs/`. Historical rule revisions remain in each full catalog. Ordinary data updates are independent of the app release cycle.
 
 Sequence 3 adds reviewed short-tourism references for ordinary China passports visiting Qatar, Oman, Thailand and Malaysia. These are qualified entry/stay references, with official source links and conditions; they do not calculate a personal grant or remaining legal allowance. Earlier revisions are preserved. Source review and validation are tracked in [DayAtlas issue 307](https://github.com/akirakusen/dayatlas/issues/307).
+
+Sequence 4 adds reviewed Nepal and Maldives references for ordinary China passports and updates Indonesia's arrival-visa reference to 30 days. Nepal's initial duration choices remain distinct from its annual cap; Maldives follows the bilateral visa exemption. All are qualified references without personal admission grants or executable stay limits. See [DayAtlas issue 309](https://github.com/akirakusen/dayatlas/issues/309).
