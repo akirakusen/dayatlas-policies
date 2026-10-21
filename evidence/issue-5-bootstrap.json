@@ -1,0 +1,24 @@
+{
+  "checkedAtUTC": "2026-10-21T14:28:54.961892+00:00",
+  "sourceCommit": "49575e7",
+  "legacyBase": "https://raw.githubusercontent.com/akirakusen/dayatlas-policies/main/",
+  "compatibleBase": "https://raw.githubusercontent.com/akirakusen/dayatlas-policies/main/feeds/entry-alternatives-v1/",
+  "sequence": 6,
+  "requiredCapabilities": [
+    "entry-policy-v1",
+    "dated-regions-v1",
+    "korea-us-transit-v1"
+  ],
+  "payloadPath": "v1/catalogs/6-31752e9dc22eb6827998e628f3ba793a94add750f5fd5cae6b595e2e193c5837.json",
+  "headSHA256": "13f039bfabec8f2d2b6af701ede549a9c65c74b355dba993a23797c7fd0bcc46",
+  "payloadSHA256": "31752e9dc22eb6827998e628f3ba793a94add750f5fd5cae6b595e2e193c5837",
+  "payloadByteCount": 1038987,
+  "publicVsLegacyCheckoutBytesEqual": true,
+  "nestedVsLegacyBytesEqual": true,
+  "signatureVerification": "passed existing production verifier and strict decoder",
+  "newRulesActivated": false,
+  "signingKeysChanged": false,
+  "appBaseActivated": false,
+  "verifierSHA256": "b8a564a213bbcd453b71cd20748dd8fbd88ebd88a11c951c455b665924802cd5",
+  "verifierSourcesMatchCompiledApp": "Policy update verification, strict catalog models/decoder, validation and tool code match 112c81a; entry evaluation-only changes are outside verification"
+}
