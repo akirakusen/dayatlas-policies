@@ -1,0 +1,905 @@
+{
+  "schemaVersion": 1,
+  "sequence": 4,
+  "publishedAt": "2026-10-21T03:27:36Z",
+  "requiredCapabilities": [
+    "entry-policy-v1",
+    "dated-regions-v1",
+    "korea-us-transit-v1"
+  ],
+  "sources": [
+    {
+      "id": "ica-cn-sg-20261020",
+      "title": "ICA mutual visa exemption",
+      "url": "https://www.ica.gov.sg/news-and-publications/newsroom/media-release/mutual-30-day-visa-exemption-arrangement-between-singapore-and-the-people-s-republic-of-china",
+      "publishedOn": "2024-01-25",
+      "reviewedOn": "2026-10-20",
+      "reviewDueOn": "2026-10-30"
+    },
+    {
+      "id": "china-mutual-faq-20261020",
+      "title": "China mutual visa exemption questions",
+      "url": "https://english.www.gov.cn/news/202406/18/content_WS6670ee4ac6d0868f4e8e8426.html",
+      "publishedOn": "2024-06-18",
+      "reviewedOn": "2026-10-20",
+      "reviewDueOn": "2026-10-30"
+    },
+    {
+      "id": "japan-mofa-20261020",
+      "title": "Japan short-stay visa exemptions",
+      "url": "https://www.mofa.go.jp/j_info/visit/visa/short/novisa.html",
+      "publishedOn": "2025-09-01",
+      "reviewedOn": "2026-10-20",
+      "reviewDueOn": "2026-10-30"
+    },
+    {
+      "id": "eu-singapore-20261020",
+      "title": "EU delegation visa guidance for Singapore",
+      "url": "https://www.eeas.europa.eu/singapore/travel-study_en",
+      "publishedOn": "2022-06-16",
+      "reviewedOn": "2026-10-20",
+      "reviewDueOn": "2026-10-30"
+    },
+    {
+      "id": "eu-schengen-area-20261020",
+      "title": "Schengen area membership",
+      "url": "https://home-affairs.ec.europa.eu/policies/schengen/schengen-area_en",
+      "publishedOn": "2025-05-27",
+      "reviewedOn": "2026-10-20",
+      "reviewDueOn": "2026-10-30"
+    },
+    {
+      "id": "eu-schengen-counting-20261020",
+      "title": "Schengen calculator manual",
+      "url": "https://ec.europa.eu/assets/home/visa-calculator/docs/short_stay_schengen_calculator_user_manual_en.pdf",
+      "publishedOn": null,
+      "reviewedOn": "2026-10-20",
+      "reviewDueOn": "2026-10-30"
+    },
+    {
+      "id": "korea-ny-20261020",
+      "title": "Korea transit guidance and US route examples",
+      "url": "https://www.mofa.go.kr/us-newyork-en/brd/m_25545/view.do?seq=12",
+      "publishedOn": "2024-02-16",
+      "reviewedOn": "2026-10-20",
+      "reviewDueOn": "2026-10-30"
+    },
+    {
+      "id": "korea-melbourne-20261020",
+      "title": "Korea transit document and entry conditions",
+      "url": "https://www.mofa.go.kr/au-melbourne-en/brd/m_1955/view.do?seq=738943",
+      "publishedOn": "2026-06-05",
+      "reviewedOn": "2026-10-20",
+      "reviewDueOn": "2026-10-30"
+    },
+    {
+      "id": "indonesia-jakarta-20261020",
+      "title": "Indonesia visa-on-arrival questions",
+      "url": "https://jakartapusat.imigrasi.go.id/faqs",
+      "publishedOn": null,
+      "reviewedOn": "2026-10-20",
+      "reviewDueOn": "2026-10-30"
+    },
+    {
+      "id": "uk-eta-nationals-20261020",
+      "title": "UK ETA nationality and commencement rules",
+      "url": "https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-eta-national-list",
+      "publishedOn": null,
+      "reviewedOn": "2026-10-20",
+      "reviewDueOn": "2026-10-30"
+    },
+    {
+      "id": "uk-eta-20261020",
+      "title": "UK electronic travel authorisation",
+      "url": "https://www.gov.uk/eta",
+      "publishedOn": null,
+      "reviewedOn": "2026-10-20",
+      "reviewDueOn": "2026-10-30"
+    },
+    {
+      "id": "china-embassy-qatar-20261021",
+      "title": "Chinese Embassy in Qatar visa and entry guidance",
+      "url": "https://qa.china-embassy.gov.cn/chn/lsfw/lsbhyxz/202401/t20240111_11221747.htm",
+      "publishedOn": "2024-01-11",
+      "reviewedOn": "2026-10-21",
+      "reviewDueOn": "2026-10-31"
+    },
+    {
+      "id": "visit-qatar-visas-20261021",
+      "title": "Visit Qatar visa information",
+      "url": "https://visitqatar.com/intl-en/plan-your-trip/visas",
+      "publishedOn": null,
+      "reviewedOn": "2026-10-21",
+      "reviewDueOn": "2026-10-31"
+    },
+    {
+      "id": "oman-fm-entry-visas-20261021",
+      "title": "Oman Foreign Ministry entry visas",
+      "url": "https://www.fm.gov.om/en/visitors/entry-visas/",
+      "publishedOn": null,
+      "reviewedOn": "2026-10-21",
+      "reviewDueOn": "2026-10-31"
+    },
+    {
+      "id": "th-mfa-cn-agreement-20261021",
+      "title": "Thai MFA: China mutual visa exemption agreement",
+      "url": "https://www.mfa.go.th/en/content/thcn280124",
+      "publishedOn": "2024-01-28",
+      "reviewedOn": "2026-10-21",
+      "reviewDueOn": "2026-10-31"
+    },
+    {
+      "id": "th-beijing-cn-current-20261021",
+      "title": "Royal Thai Embassy Beijing: updated China visa exemption",
+      "url": "https://thaiembbeij.org/th/news/updateofvisaexemption/",
+      "publishedOn": "2026-09-02",
+      "reviewedOn": "2026-10-21",
+      "reviewDueOn": "2026-10-31"
+    },
+    {
+      "id": "th-tdac-faq-20261021",
+      "title": "Thailand Immigration: Digital Arrival Card FAQ",
+      "url": "https://tdac.immigration.go.th/manual/en/faq.html",
+      "publishedOn": null,
+      "reviewedOn": "2026-10-21",
+      "reviewDueOn": "2026-10-31"
+    },
+    {
+      "id": "my-immigration-cn-agreement-20261021",
+      "title": "Malaysia Immigration: China mutual visa exemption FAQ",
+      "url": "https://www.imi.gov.my/wp-content/uploads/2022/01/21OKT_FAQs-MYS-CHINA_LULUS.pdf",
+      "publishedOn": null,
+      "reviewedOn": "2026-10-21",
+      "reviewDueOn": "2026-10-31"
+    },
+    {
+      "id": "my-china-embassy-agreement-20261021",
+      "title": "Chinese Embassy Malaysia: mutual visa exemption commencement",
+      "url": "https://my.china-embassy.gov.cn/fwzc/lsyw/zytz/qzxgtz/202507/t20250714_11670211.htm",
+      "publishedOn": "2025-07-16",
+      "reviewedOn": "2026-10-21",
+      "reviewDueOn": "2026-10-31"
+    },
+    {
+      "id": "my-mdac-portal-20261021",
+      "title": "Malaysia Immigration: Digital Arrival Card registration",
+      "url": "https://imigresen-online.imi.gov.my/mdac/register",
+      "publishedOn": null,
+      "reviewedOn": "2026-10-21",
+      "reviewDueOn": "2026-10-31"
+    },
+    {
+      "id": "indonesia-b1-bontang-20261021",
+      "title": "Indonesia Immigration Bontang: B1 visa on arrival",
+      "url": "https://bontang.imigrasi.go.id/layanan-publik/kategori/wna/sub/informasi-visa-republik-indonesia",
+      "publishedOn": null,
+      "reviewedOn": "2026-10-21",
+      "reviewDueOn": "2026-10-31"
+    },
+    {
+      "id": "indonesia-evisa-evoa-20261021",
+      "title": "Indonesia Immigration: electronic visitor visa FAQ",
+      "url": "https://evisa.imigrasi.go.id/front/info/evoa",
+      "publishedOn": null,
+      "reviewedOn": "2026-10-21",
+      "reviewDueOn": "2026-10-31"
+    },
+    {
+      "id": "indonesia-jakarta-20261021",
+      "title": "Indonesia Immigration Jakarta: arrival visa requirements and eligibility",
+      "url": "https://jakartapusat.imigrasi.go.id/faqs",
+      "publishedOn": null,
+      "reviewedOn": "2026-10-21",
+      "reviewDueOn": "2026-10-31"
+    },
+    {
+      "id": "nepal-doi-visa-information-20261021",
+      "title": "Nepal Immigration: tourist visa and on-arrival process",
+      "url": "https://immigration.gov.np/visa-information",
+      "publishedOn": null,
+      "reviewedOn": "2026-10-21",
+      "reviewDueOn": "2026-10-31"
+    },
+    {
+      "id": "nepal-doi-eta-20261021",
+      "title": "Nepal Immigration: visa durations and Chinese gratis eligibility",
+      "url": "https://immigration.gov.np/eta-visa-nepal",
+      "publishedOn": null,
+      "reviewedOn": "2026-10-21",
+      "reviewDueOn": "2026-10-31"
+    },
+    {
+      "id": "nepal-tia-faq-20261021",
+      "title": "Nepal TIA Immigration: visa on arrival restrictions",
+      "url": "https://tia.immigration.gov.np/faq",
+      "publishedOn": null,
+      "reviewedOn": "2026-10-21",
+      "reviewDueOn": "2026-10-31"
+    },
+    {
+      "id": "maldives-china-embassy-treaty-20261021",
+      "title": "Chinese Embassy Maldives: bilateral visa exemption in force",
+      "url": "https://mv.china-embassy.gov.cn/lsfw/lszj/202302/t20230217_11026655.htm",
+      "publishedOn": "2023-02-17",
+      "reviewedOn": "2026-10-21",
+      "reviewDueOn": "2026-10-31"
+    },
+    {
+      "id": "maldives-immigration-tourist-20261021",
+      "title": "Maldives Immigration: tourist entry requirements",
+      "url": "https://www.immigration.gov.mv/visa/tourist-visa",
+      "publishedOn": null,
+      "reviewedOn": "2026-10-21",
+      "reviewDueOn": "2026-10-31"
+    }
+  ],
+  "regions": [
+    {
+      "reference": {
+        "id": "schengen-membership",
+        "revision": "2025-01-01"
+      },
+      "effectiveFrom": "2025-01-01",
+      "effectiveUntil": null,
+      "countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CH",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ],
+      "sourceIDs": [
+        "eu-schengen-area-20261020",
+        "eu-schengen-counting-20261020"
+      ]
+    }
+  ],
+  "policies": [
+    {
+      "reference": {
+        "id": "cn-sg-visitor",
+        "revision": "2026-10-20"
+      },
+      "title": "Singapore short visit",
+      "destinations": [
+        "SG"
+      ],
+      "region": null,
+      "passportCountries": [
+        "CN"
+      ],
+      "passportTypes": [
+        "ordinary"
+      ],
+      "purposes": [
+        "tourism"
+      ],
+      "accessMode": "visaExempt",
+      "template": "referenceOnly",
+      "effectiveFrom": "2024-02-09",
+      "effectiveUntil": null,
+      "reviewedOn": "2026-10-20",
+      "reviewDueOn": "2026-10-30",
+      "sourceIDs": [
+        "ica-cn-sg-20261020"
+      ],
+      "statedStayDays": 30,
+      "limits": [],
+      "requirements": [
+        "entryRequirements"
+      ],
+      "notes": [
+        "Ordinary Chinese passports have a published exemption of up to 30 days.",
+        "Confirm general entry requirements and the visit pass issued on arrival. This source does not establish an exact day-counting convention."
+      ]
+    },
+    {
+      "reference": {
+        "id": "sg-cn-visitor",
+        "revision": "2026-10-20"
+      },
+      "title": "China short visit",
+      "destinations": [
+        "CN"
+      ],
+      "region": null,
+      "passportCountries": [
+        "SG"
+      ],
+      "passportTypes": [
+        "ordinary"
+      ],
+      "purposes": [
+        "tourism"
+      ],
+      "accessMode": "visaExempt",
+      "template": "referenceOnly",
+      "effectiveFrom": "2024-02-09",
+      "effectiveUntil": null,
+      "reviewedOn": "2026-10-20",
+      "reviewDueOn": "2026-10-30",
+      "sourceIDs": [
+        "ica-cn-sg-20261020",
+        "china-mutual-faq-20261020"
+      ],
+      "statedStayDays": 30,
+      "limits": [],
+      "requirements": [
+        "entryRequirements"
+      ],
+      "notes": [
+        "Ordinary Singapore passports have a published exemption of up to 30 days.",
+        "Mutual-exemption guidance also describes a 90-day cap in 180 days and excludes stays under certain other permissions. Exact applicability and counting remain reference-only."
+      ]
+    },
+    {
+      "reference": {
+        "id": "sg-jp-visitor",
+        "revision": "2026-10-20"
+      },
+      "title": "Japan short visit",
+      "destinations": [
+        "JP"
+      ],
+      "region": null,
+      "passportCountries": [
+        "SG"
+      ],
+      "passportTypes": [
+        "ordinary"
+      ],
+      "purposes": [
+        "tourism"
+      ],
+      "accessMode": "visaExempt",
+      "template": "referenceOnly",
+      "effectiveFrom": null,
+      "effectiveUntil": null,
+      "reviewedOn": "2026-10-20",
+      "reviewDueOn": "2026-10-30",
+      "sourceIDs": [
+        "japan-mofa-20261020"
+      ],
+      "statedStayDays": 90,
+      "limits": [],
+      "requirements": [
+        "entryRequirements"
+      ],
+      "notes": [
+        "Singapore is listed for short-stay visa exemption with 90 days upon landing permission.",
+        "Entry conditions and day counting require confirmation. No cumulative Japan rule is inferred."
+      ]
+    },
+    {
+      "reference": {
+        "id": "sg-schengen-visitor",
+        "revision": "2026-10-20"
+      },
+      "title": "Schengen short visit",
+      "destinations": [],
+      "region": {
+        "id": "schengen-membership",
+        "revision": "2025-01-01"
+      },
+      "passportCountries": [
+        "SG"
+      ],
+      "passportTypes": [
+        "ordinary"
+      ],
+      "purposes": [
+        "tourism"
+      ],
+      "accessMode": "visaExempt",
+      "template": "ordinaryVisitor",
+      "effectiveFrom": null,
+      "effectiveUntil": null,
+      "reviewedOn": "2026-10-20",
+      "reviewDueOn": "2026-10-30",
+      "sourceIDs": [
+        "eu-singapore-20261020",
+        "eu-schengen-area-20261020",
+        "eu-schengen-counting-20261020"
+      ],
+      "statedStayDays": 90,
+      "limits": [
+        {
+          "kind": "rollingWindow",
+          "quantity": {
+            "amount": 90,
+            "unit": "days"
+          },
+          "windowDays": 180,
+          "counting": "includeEntryAndExit"
+        }
+      ],
+      "requirements": [
+        "entryRequirements"
+      ],
+      "notes": [
+        "General short-stay limit only; entry and exit days count.",
+        "Exclude stays authorised by a residence permit or long-stay visa where applicable. Personal grants, bilateral exceptions and travel authorisations require separate review.",
+        "Membership is supplied only from 1 January 2025. Earlier membership is unknown in this catalog."
+      ]
+    },
+    {
+      "reference": {
+        "id": "cn-kr-us-transit",
+        "revision": "2026-10-20"
+      },
+      "title": "Korea transit through the US route",
+      "destinations": [
+        "KR"
+      ],
+      "region": null,
+      "passportCountries": [
+        "CN"
+      ],
+      "passportTypes": [
+        "ordinary"
+      ],
+      "purposes": [
+        "transit"
+      ],
+      "accessMode": "conditional",
+      "template": "koreaUSTransit",
+      "effectiveFrom": "2023-04-30",
+      "effectiveUntil": null,
+      "reviewedOn": "2026-10-20",
+      "reviewDueOn": "2026-10-30",
+      "sourceIDs": [
+        "korea-ny-20261020",
+        "korea-melbourne-20261020"
+      ],
+      "statedStayDays": 30,
+      "limits": [],
+      "requirements": [
+        "noImmigrationViolations",
+        "noKoreaRefusalWithinThreeYears",
+        "noSeriousImmigrationPenalty"
+      ],
+      "notes": [
+        "Reviewed subset: Chinese ordinary passport and a valid US visa attached as a sticker, with a direct US-to-third-country route through Korea or the reverse.",
+        "Confirmed departure within 30 days and the listed immigration-history conditions are required. Intermediate routes require individual review; a known stay exceeding three days does not match.",
+        "The boundary counting convention is unverified. No calculated admission deadline is supplied. Residence cards, electronic documents and other issuers are outside this subset."
+      ]
+    },
+    {
+      "reference": {
+        "id": "cn-id-voa",
+        "revision": "2026-10-20"
+      },
+      "title": "Indonesia visa on arrival",
+      "destinations": [
+        "ID"
+      ],
+      "region": null,
+      "passportCountries": [
+        "CN"
+      ],
+      "passportTypes": [
+        "ordinary"
+      ],
+      "purposes": [
+        "tourism"
+      ],
+      "accessMode": "visaOnArrival",
+      "template": "referenceOnly",
+      "effectiveFrom": null,
+      "effectiveUntil": null,
+      "reviewedOn": "2026-10-20",
+      "reviewDueOn": "2026-10-30",
+      "sourceIDs": [
+        "indonesia-jakarta-20261020"
+      ],
+      "statedStayDays": null,
+      "limits": [],
+      "requirements": [
+        "entryRequirements"
+      ],
+      "notes": [
+        "The official list includes China for electronic visa on arrival. Arrival applications use designated immigration checkpoints.",
+        "A valid national passport with at least six months remaining and a return or onward ticket are listed requirements. Confirm the applicable visa type, checkpoint and authorised stay. No unverified duration is calculated."
+      ]
+    },
+    {
+      "reference": {
+        "id": "sg-gb-eta",
+        "revision": "2026-10-20"
+      },
+      "title": "UK electronic travel authorisation",
+      "destinations": [
+        "GB"
+      ],
+      "region": null,
+      "passportCountries": [
+        "SG"
+      ],
+      "passportTypes": [
+        "ordinary"
+      ],
+      "purposes": [
+        "tourism"
+      ],
+      "accessMode": "advanceAuthorization",
+      "template": "referenceOnly",
+      "effectiveFrom": "2025-01-08",
+      "effectiveUntil": null,
+      "reviewedOn": "2026-10-20",
+      "reviewDueOn": "2026-10-30",
+      "sourceIDs": [
+        "uk-eta-nationals-20261020",
+        "uk-eta-20261020"
+      ],
+      "statedStayDays": null,
+      "limits": [],
+      "requirements": [
+        "entryRequirements"
+      ],
+      "notes": [
+        "The ETA nationality rules include Singapore for travel from 8 January 2025. An ETA is advance travel permission, not a grant of admission.",
+        "Exemptions can apply to British or Irish passport holders and people with existing UK permission. Confirm the route, purpose and applicable status. No fixed-day stay deadline is inferred from the visitor-month guidance."
+      ]
+    },
+    {
+      "reference": {
+        "id": "cn-qa-visitor",
+        "revision": "2026-10-21"
+      },
+      "title": "Qatar short visit",
+      "destinations": [
+        "QA"
+      ],
+      "region": null,
+      "passportCountries": [
+        "CN"
+      ],
+      "passportTypes": [
+        "ordinary"
+      ],
+      "purposes": [
+        "tourism"
+      ],
+      "accessMode": "visaExempt",
+      "template": "referenceOnly",
+      "effectiveFrom": "2018-12-21",
+      "effectiveUntil": null,
+      "reviewedOn": "2026-10-21",
+      "reviewDueOn": "2026-10-31",
+      "sourceIDs": [
+        "china-embassy-qatar-20261021",
+        "visit-qatar-visas-20261021"
+      ],
+      "statedStayDays": 30,
+      "limits": [],
+      "requirements": [
+        "entryRequirements"
+      ],
+      "notes": [
+        "Passport validity of at least three months from arrival is required for this route. Check current entry conditions.",
+        "Stays beyond 30 days require approval from Qatar authorities. Work, study and residence require separate permission."
+      ]
+    },
+    {
+      "reference": {
+        "id": "cn-om-visitor",
+        "revision": "2026-10-21"
+      },
+      "title": "Oman short visit",
+      "destinations": [
+        "OM"
+      ],
+      "region": null,
+      "passportCountries": [
+        "CN"
+      ],
+      "passportTypes": [
+        "ordinary"
+      ],
+      "purposes": [
+        "tourism"
+      ],
+      "accessMode": "visaExempt",
+      "template": "referenceOnly",
+      "effectiveFrom": null,
+      "effectiveUntil": null,
+      "reviewedOn": "2026-10-21",
+      "reviewDueOn": "2026-10-31",
+      "sourceIDs": [
+        "oman-fm-entry-visas-20261021"
+      ],
+      "statedStayDays": 14,
+      "limits": [],
+      "requirements": [
+        "entryRequirements"
+      ],
+      "notes": [
+        "A passport valid for at least six months, return ticket, confirmed hotel, health insurance and sufficient funds are required.",
+        "This exemption does not require a third-country visa. The 14-day stay cannot be extended or converted to residence."
+      ]
+    },
+    {
+      "reference": {
+        "id": "cn-th-visitor",
+        "revision": "2026-10-21"
+      },
+      "title": "Thailand short visit",
+      "destinations": [
+        "TH"
+      ],
+      "region": null,
+      "passportCountries": [
+        "CN"
+      ],
+      "passportTypes": [
+        "ordinary"
+      ],
+      "purposes": [
+        "tourism"
+      ],
+      "accessMode": "visaExempt",
+      "template": "referenceOnly",
+      "effectiveFrom": "2026-09-15",
+      "effectiveUntil": null,
+      "reviewedOn": "2026-10-21",
+      "reviewDueOn": "2026-10-31",
+      "sourceIDs": [
+        "th-mfa-cn-agreement-20261021",
+        "th-beijing-cn-current-20261021",
+        "th-tdac-faq-20261021"
+      ],
+      "statedStayDays": 30,
+      "limits": [],
+      "requirements": [
+        "entryRequirements"
+      ],
+      "notes": [
+        "The bilateral exemption allows up to 30 days per stay and 90 days in any 180-day period.",
+        "Complete a new, free Thailand Digital Arrival Card before each entry using the official submission window.",
+        "Residence, work, study and other activities requiring prior approval are separate. Extensions depend on Thai Immigration."
+      ]
+    },
+    {
+      "reference": {
+        "id": "cn-my-visitor",
+        "revision": "2026-10-21"
+      },
+      "title": "Malaysia short visit",
+      "destinations": [
+        "MY"
+      ],
+      "region": null,
+      "passportCountries": [
+        "CN"
+      ],
+      "passportTypes": [
+        "ordinary"
+      ],
+      "purposes": [
+        "tourism"
+      ],
+      "accessMode": "visaExempt",
+      "template": "referenceOnly",
+      "effectiveFrom": "2025-07-17",
+      "effectiveUntil": null,
+      "reviewedOn": "2026-10-21",
+      "reviewDueOn": "2026-10-31",
+      "sourceIDs": [
+        "my-immigration-cn-agreement-20261021",
+        "my-china-embassy-agreement-20261021",
+        "my-mdac-portal-20261021"
+      ],
+      "statedStayDays": 30,
+      "limits": [],
+      "requirements": [
+        "entryRequirements"
+      ],
+      "notes": [
+        "The exemption allows up to 30 days per entry and 90 days within a 180-day period. Re-entry can be limited by the cumulative allowance.",
+        "A passport valid for at least six months is required. Have onward travel and accommodation details ready.",
+        "Complete the Malaysia Digital Arrival Card before entry; use the official portal for its current submission window.",
+        "Stays before 17 July 2025 and stays under other facilities, such as a visa or APEC card, are excluded from this bilateral quota. Check your remaining allowance with Malaysian Immigration."
+      ]
+    },
+    {
+      "reference": {
+        "id": "cn-id-voa",
+        "revision": "2026-10-21"
+      },
+      "title": "Indonesia visa on arrival",
+      "destinations": [
+        "ID"
+      ],
+      "region": null,
+      "passportCountries": [
+        "CN"
+      ],
+      "passportTypes": [
+        "ordinary"
+      ],
+      "purposes": [
+        "tourism"
+      ],
+      "accessMode": "visaOnArrival",
+      "template": "referenceOnly",
+      "effectiveFrom": null,
+      "effectiveUntil": null,
+      "reviewedOn": "2026-10-21",
+      "reviewDueOn": "2026-10-31",
+      "sourceIDs": [
+        "indonesia-b1-bontang-20261021",
+        "indonesia-evisa-evoa-20261021",
+        "indonesia-jakarta-20261021"
+      ],
+      "statedStayDays": 30,
+      "limits": [],
+      "requirements": [
+        "entryRequirements"
+      ],
+      "notes": [
+        "B1 is a single-entry visa on arrival for up to 30 days at designated checkpoints. An e-VOA can be obtained before travel.",
+        "A passport valid for at least six months and a return or onward ticket are required. The published B1 fee is IDR 500,000.",
+        "One extension may be requested, for up to 60 days in total. The e-VOA's 90-day entry validity is separate from the permitted stay."
+      ]
+    },
+    {
+      "reference": {
+        "id": "cn-np-visitor",
+        "revision": "2026-10-21"
+      },
+      "title": "Nepal tourist visa on arrival",
+      "destinations": [
+        "NP"
+      ],
+      "region": null,
+      "passportCountries": [
+        "CN"
+      ],
+      "passportTypes": [
+        "ordinary"
+      ],
+      "purposes": [
+        "tourism"
+      ],
+      "accessMode": "visaOnArrival",
+      "template": "referenceOnly",
+      "effectiveFrom": null,
+      "effectiveUntil": null,
+      "reviewedOn": "2026-10-21",
+      "reviewDueOn": "2026-10-31",
+      "sourceIDs": [
+        "nepal-doi-visa-information-20261021",
+        "nepal-doi-eta-20261021",
+        "nepal-tia-faq-20261021"
+      ],
+      "statedStayDays": null,
+      "limits": [],
+      "requirements": [
+        "entryRequirements"
+      ],
+      "notes": [
+        "Tourist visas on arrival offer 15, 30 or 90 days at TIA and other designated entry points. Chinese nationals qualify for a gratis visa.",
+        "Use a machine-readable passport valid for at least six months. Complete the arrival application and visa issuance with Immigration.",
+        "Tourist stays, including approved extensions, are limited to 150 days per visa year (January to December). Check the duration issued on your visa."
+      ]
+    },
+    {
+      "reference": {
+        "id": "cn-mv-visitor",
+        "revision": "2026-10-21"
+      },
+      "title": "Maldives short visit",
+      "destinations": [
+        "MV"
+      ],
+      "region": null,
+      "passportCountries": [
+        "CN"
+      ],
+      "passportTypes": [
+        "ordinary"
+      ],
+      "purposes": [
+        "tourism"
+      ],
+      "accessMode": "visaExempt",
+      "template": "referenceOnly",
+      "effectiveFrom": null,
+      "effectiveUntil": null,
+      "reviewedOn": "2026-10-21",
+      "reviewDueOn": "2026-10-31",
+      "sourceIDs": [
+        "maldives-china-embassy-treaty-20261021",
+        "maldives-immigration-tourist-20261021"
+      ],
+      "statedStayDays": 30,
+      "limits": [],
+      "requirements": [
+        "entryRequirements"
+      ],
+      "notes": [
+        "Use an MRZ passport with at least one month remaining; extended-validity passports are not accepted. Each child needs their own passport.",
+        "Bring a confirmed return itinerary, prepaid registered accommodation and sufficient funds, or Immigration-approved sponsorship. Meet onward-destination requirements.",
+        "Submit the free IMUGA declaration within 96 hours before arrival. A yellow-fever certificate is required when the travel history triggers that requirement."
+      ]
+    }
+  ],
+  "activePolicies": [
+    {
+      "id": "cn-sg-visitor",
+      "revision": "2026-10-20"
+    },
+    {
+      "id": "sg-cn-visitor",
+      "revision": "2026-10-20"
+    },
+    {
+      "id": "sg-jp-visitor",
+      "revision": "2026-10-20"
+    },
+    {
+      "id": "sg-schengen-visitor",
+      "revision": "2026-10-20"
+    },
+    {
+      "id": "cn-kr-us-transit",
+      "revision": "2026-10-20"
+    },
+    {
+      "id": "sg-gb-eta",
+      "revision": "2026-10-20"
+    },
+    {
+      "id": "cn-qa-visitor",
+      "revision": "2026-10-21"
+    },
+    {
+      "id": "cn-om-visitor",
+      "revision": "2026-10-21"
+    },
+    {
+      "id": "cn-th-visitor",
+      "revision": "2026-10-21"
+    },
+    {
+      "id": "cn-my-visitor",
+      "revision": "2026-10-21"
+    },
+    {
+      "id": "cn-id-voa",
+      "revision": "2026-10-21"
+    },
+    {
+      "id": "cn-np-visitor",
+      "revision": "2026-10-21"
+    },
+    {
+      "id": "cn-mv-visitor",
+      "revision": "2026-10-21"
+    }
+  ]
+}
